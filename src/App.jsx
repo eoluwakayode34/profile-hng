@@ -21,7 +21,7 @@ function App() {
           <Flex flexDir={'column'} align="center" mt="40px" py="40px" >
 
           <Box bg="gray" h="88px" w="88px" borderRadius={"50%"} overflow="hidden" >
-            <Image src={emmyImage} alt="emmy image" />
+            <Image src={emmyImage} alt="emmy image" id="profile__img" />
           </Box>
           <Heading2 fontSize={['24px']} mt="20px">Emmanuel</Heading2>
           </Flex>
@@ -41,7 +41,7 @@ function App() {
         <Flex px={3} pb={20} flexDir={'column'}  >
           <Flex flexDir={'column'} align={'center'} w={['100%']}>
 
-<Button id={'hng_twitter'} linkUrl={'https://twitter.com/hnginternship'} >Twitter Link</Button>
+<Button id={'twitter'} linkUrl={'https://twitter.com/olaskidDev'} >Twitter Link</Button>
 <Button id={'btn__zuri'} linkUrl={'https://training.zuri.team/'} >Zuri Team</Button>
 <Button  id={'books'} linkUrl={'http://books.zuri.team'} >Zuri Books</Button>
 <Button id={'books'} linkUrl={' https://books.zuri.team/python-for-beginners?ref_id=distinctEmmy'} >Python Books</Button>
