@@ -21,10 +21,9 @@ function Home() {
           <Flex flexDir={'column'} align="flex-start" w={['70%']}  mt="40px" py="40px" >
                 <Heading1>Contact Me</Heading1>
                 <PrimaryText fontSize={['20px']} >Hi there, contact me to ask me about anything you have in mind.</PrimaryText>
-                <Flex w="100%" mt={'24px'}>
-          <FormInput label={"First name"} id={'first_name'} placeholder={"Enter your first name"} />
-          <Box mx={['24px']}/>
-          <FormInput label={"Last name"} id={'first_name'}  placeholder={"Enter your last name"}/>
+                <Flex w="100%" mt={'24px'} justify="space-between" flexWrap={"wrap"} >
+          <FormInput label={"First name"} width={["100%","100%","48%","48%"]}  id={'first_name'} placeholder={"Enter your first name"} />
+          <FormInput mt={'24px'} label={"Last name"}  width={["100%","100%","48%","48%"]} id={'first_name'}  placeholder={"Enter your last name"}/>
 
           </Flex >
                 <Flex w="100%" mt={'24px'}>
