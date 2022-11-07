@@ -20,7 +20,7 @@ function Home() {
           <Flex  justifyContent={"center"}  pos="relative" w={['100%']}>
           <Flex flexDir={'column'} align="flex-start" w={['70%']}  mt="40px" py="40px" >
                 <Heading1>Contact Me</Heading1>
-                <PrimaryText fontSize={['20px']} >Hi there, contact me to ask me about anything you have in mind.</PrimaryText>
+                <PrimaryText fontSize={['16px','18px','18px','20px']} >Hi there, contact me to ask me about anything you have in mind.</PrimaryText>
                 <Flex w="100%" mt={'24px'} justify="space-between" flexWrap={"wrap"} >
           <FormInput label={"First name"} width={["100%","100%","48%","48%"]}  id={'first_name'} placeholder={"Enter your first name"} />
           <FormInput mt={['24px','24px','24px','0px','0px']} label={"Last name"}  width={["100%","100%","48%","48%"]} id={'first_name'}  placeholder={"Enter your last name"}/>
@@ -37,7 +37,7 @@ function Home() {
 
           </Flex>
                 <Flex w="100%" mt={'24px'}>
-          <CheckBox label={"Message"} placeholder={"Send me a message and I'll reply you as soon as possible..."} />
+          <CheckBox label={"terms"} id={"terms"} placeholder={"You agree to providing your data to Olagundoye Emmanuel who may contact you."} />
         
 
           </Flex>

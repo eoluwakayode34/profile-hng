@@ -12,6 +12,7 @@ export function TextArea({label, placeholder}) {
         <Textarea
           value={value}
           onChange={handleChange}
+          h="132px" 
           fontSize={'16px'} 
           px={['14px']}
           py={['10px']}
