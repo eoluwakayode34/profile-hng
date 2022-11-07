@@ -23,7 +23,7 @@ function Home() {
                 <PrimaryText fontSize={['20px']} >Hi there, contact me to ask me about anything you have in mind.</PrimaryText>
                 <Flex w="100%" mt={'24px'} justify="space-between" flexWrap={"wrap"} >
           <FormInput label={"First name"} width={["100%","100%","48%","48%"]}  id={'first_name'} placeholder={"Enter your first name"} />
-          <FormInput mt={'24px'} label={"Last name"}  width={["100%","100%","48%","48%"]} id={'first_name'}  placeholder={"Enter your last name"}/>
+          <FormInput mt={['24px','24px','24px','0px','0px']} label={"Last name"}  width={["100%","100%","48%","48%"]} id={'first_name'}  placeholder={"Enter your last name"}/>
 
           </Flex >
                 <Flex w="100%" mt={'24px'}>
