@@ -2,13 +2,13 @@ import React from 'react'
 import {Button,LightMode, Link} from '@chakra-ui/react'
 import { NavLink } from 'react-router-dom'
 import { PrimaryText } from './typography'
-const AppButton = ({children, to, bg = '#EAECF0', linkUrl, id, width='100%', ...otherProps}) => {
+const AppButton = ({children, to, bg = '#EAECF0', navLink, linkUrl, id, width='100%', ...otherProps}) => {
     return (
         <LightMode>
             <Button width={width} 
             as={linkUrl ? Link : NavLink}
             isExternal
-            href={linkUrl ? linkUrl : '/contact'}
+            href={linkUrl ? linkUrl : navLink}
             
             px='19px'
             py='30px'

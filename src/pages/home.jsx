@@ -46,7 +46,7 @@ function Home() {
 <Button id={'books'} linkUrl={' https://books.zuri.team/python-for-beginners?ref_id=distinctEmmy'} >Python Books</Button>
 <Button  id={'pitch'} linkUrl={'https://background.zuri.team'} >Background Check for Coders</Button>
 <Button  id={'book__design'} linkUrl={'https://books.zuri.team/design-rules'} >Design Books</Button> 
-<Button  id={'contact_me'} linkUrl={'/contact'} >Contact Me</Button> 
+<Button  id={'contact'} linkUrl={'/contact'} >Contact Me</Button> 
 
 
 <Flex mt="50px" >
