@@ -44,11 +44,10 @@ function Home() {
 <Button id={'twitter'} linkUrl={'https://twitter.com/olaskidDev'} >Twitter Link</Button>
 <Button id={'btn__zuri'} linkUrl={'https://training.zuri.team/'} >Zuri Team</Button>
 <Button  id={'books'} linkUrl={'http://books.zuri.team'} >Zuri Books</Button>
-<Button id={'books__python'} linkUrl={' https://books.zuri.team/python-for-beginners?ref_id=distinctEmmy'} >Python Books</Button>
+<Button id={'book__python'} linkUrl={' https://books.zuri.team/python-for-beginners?ref_id=distinctEmmy'} >Python Books</Button>
 <Button  id={'pitch'} linkUrl={'https://background.zuri.team'} >Background Check for Coders</Button>
 <Button  id={'book__design'} linkUrl={'https://books.zuri.team/design-rules'} >Design Books</Button> 
-<CButton as={NavLink} to="/contact"     
-id={'contact'}    
+<CButton as={NavLink} to="/contact" id={'contact'}    
             px='19px'
             py='30px'
             my='10px'
