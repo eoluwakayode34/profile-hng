@@ -34,9 +34,9 @@ function App() {
         <Flex px={4} py={10} flexWrap={'wrap'} justify="space-between" borderTop="1.5px solid #EAECF0"  >
           
 
-          <Image src={zuriLogo} />
-          <PrimaryText color="#667085">HNG Internship 9 Frontend Task</PrimaryText>
-          <Image src={ingressLogo} h="100%" />
+          <Image src={zuriLogo} id="zuri_logo" />
+          <PrimaryText color="#667085" id="hng_logo" >HNG Internship 9 Frontend Task</PrimaryText>
+          <Image src={ingressLogo} h="100%" id="ingress_logo"  />
         </Flex>
       </Container>
     </Flex>

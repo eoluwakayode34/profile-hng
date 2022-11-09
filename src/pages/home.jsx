@@ -62,8 +62,8 @@ function Home() {
 
 
 <Flex mt="50px" >
-  <Image  mx="10px" src={slack} alt="slack logo" />
-  <Image   mx="10px" src={github} alt="github logo" />
+  <Image  mx="10px" src={slack} id="slack" alt="slack logo" />
+  <Image   mx="10px" src={github} id="github" alt="github logo" />
 </Flex>
           </Flex>
 
