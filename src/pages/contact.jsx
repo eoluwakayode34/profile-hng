@@ -8,6 +8,7 @@ import github from './../assets/github.svg'
 import { FormInput } from '../component/input'
 import { TextArea } from '../component/textarea'
 import { CheckBox } from '../component/checkbox'
+import { NavLink } from 'react-router-dom'
 
 function Home() {
   const [count, setCount] = useState(0)
@@ -43,11 +44,12 @@ function Home() {
           </Flex>
 
           <Flex w={"100%"} mt={'24px'}>
+
           <Button bg={"#1570EF"} id={'btn_submit'} color={"white"} _hover={"#1250E"} >Send message</Button>
 
           </Flex>
           </Flex>
-       
+
 
 
           {/* <Flex  pos="absolute" right={0} justifySelf={"flex-end"}>

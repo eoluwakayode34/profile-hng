@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import {  Flex,  Image, Box } from '@chakra-ui/react'
+import {  Flex,  Image, Box, Link, Button as CButton } from '@chakra-ui/react'
 import Button from './../component/button'
 import Container from './../component/container'
 import {Heading1, Heading2, PrimaryText} from './../component/typography'
@@ -8,6 +8,7 @@ import github from './../assets/github.svg'
 import zuriLogo from './../assets/zuri-logo.svg'
 import ingressLogo from './../assets/I4G.png'
 import emmyImage from './../assets/emmy.jpeg'
+import { NavLink } from 'react-router-dom'
 function Home() {
   const [count, setCount] = useState(0)
 
@@ -43,10 +44,22 @@ function Home() {
 <Button id={'twitter'} linkUrl={'https://twitter.com/olaskidDev'} >Twitter Link</Button>
 <Button id={'btn__zuri'} linkUrl={'https://training.zuri.team/'} >Zuri Team</Button>
 <Button  id={'books'} linkUrl={'http://books.zuri.team'} >Zuri Books</Button>
-<Button id={'books'} linkUrl={' https://books.zuri.team/python-for-beginners?ref_id=distinctEmmy'} >Python Books</Button>
+<Button id={'books__python'} linkUrl={' https://books.zuri.team/python-for-beginners?ref_id=distinctEmmy'} >Python Books</Button>
 <Button  id={'pitch'} linkUrl={'https://background.zuri.team'} >Background Check for Coders</Button>
 <Button  id={'book__design'} linkUrl={'https://books.zuri.team/design-rules'} >Design Books</Button> 
-<Button  id={'contact'} linkUrl={'/contact'} >Contact Me</Button> 
+<CButton as={NavLink} to="/contact"     
+id={'contact'}    
+            px='19px'
+            py='30px'
+            my='10px'
+            fontWeight={500}
+            textTransform='capitalize'
+            fontSize='18px'
+            bg={'#EAECF0'}
+            fontFamily='montserrat'
+            w="100%"
+            color={'#101828'} 
+            borderRadius={8}>Contact Me</CButton>
 
 
 <Flex mt="50px" >
